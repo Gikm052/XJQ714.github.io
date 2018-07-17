@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.center{
+	margin:0 auto;
+}
+#top{
+	width: 990px;
+	height: 86px;
+	line-height: 86px;
+}
+
+#top img{
+	vertical-align: middle;/*垂直中间*/
+	margin-right: 30px;
+}
+
+#top h1{
+	display: inline;
+	font-size: 24px;
+	color: #666;
+	font-family: "楷体";
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+#body{
+	width: 100%;
+	height: 475px;
+	background-color: #e93854;
+}
+
+#main{
+	width: 990px;
+	height: 475px;
+	background: url("banner.png");
+	position: relative;    
+}
+#form_box{
+	width: 306px;
+	background: #fff;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	padding: 20px;
+}
+
+#form_box h2{
+	font-size: 20px;
+	font-weight: normal;
+	color: #666;
+	font-family: "楷体";
+	margin-bottom: 15px;
+}
+#form_box h2 a{
+	display: inline-block;
+	float: right;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #b61d1d;
+	text-decoration: none;
+	background: url("login-icons.png") no-repeat ;
+	background-position: -104px -75px;
+}
+#user_box{
+	width: 304px;
+	height: 38px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+#user_box label{
+	float: left;
+	width: 38px;
+	height: 38px;
+	border-right: 1px solid #ccc;
+	background: url(login-icons.png) no-repeat ;
+}
+#user_box input{
+	border: none;
+	width: 255px;
+	padding: 10px 0 10px 10px;
+	font-family: "楷体";
+}
+#pwd_box{
+	width: 304px;
+	height: 38px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+#pwd_box label
+{
+	float: left;
+	width: 38px;
+	height: 38px;
+	border-right: 1px solid #ccc;
+	background: url(login-icons.png) no-repeat -48px 0;
+
+}
+#pwd_box input{
+	border: none;
+	width: 255px;
+	padding: 11px 5px 11px 5px;
+}
+#remember_box
+{
+	font-size: 16px;
+	color: #666;
+	font-family: "楷体";
+	margin-bottom: 20px;
+}
+#remember_box input{
+vertical-align: middle;
+}
+#remember_box label{
+	vertical-align: middle;
+	font-family: "楷体";
+}
+#remember_box a
+{
+	color: #666;
+	float: right;
+	text-decoration: none;
+	font-family: "楷体";
+}
+#submit_box{
+	text-align: center; 
+}
+#submit_box input{
+	width: 302px;
+	height: 32px;
+	background: #e4393c;
+	border: none;
+	font-family: "楷体";
+	font-size: 20px;
+	color: #fff;
+}
+#footer{
+	width: 990px;
+	height: 80px;
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	padding-top: 20px;
+}
+#footer ul{
+	list-style: none;
+	margin-bottom: 20px;
+}
+#footer ul li{
+	display:inline; 
+	margin: 0 4px;
+}
+#footer ul li a,p{
+ 	text-decoration: none;
+ 	font-family: "楷体";
+ 	color: #666;
+}
+#footer ul li a:hover{
+	color: #e4393c;
+	text-decoration: underline;
+}
+
+
